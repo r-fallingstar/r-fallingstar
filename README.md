@@ -13,6 +13,17 @@
   <img src="./assets/interests.svg" width="760" alt="関心のある分野：宇宙、衛星画像、Unity、VRChat、AIツール" />
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-E9D8F2?style=for-the-badge&logo=python&logoColor=5A4A6E" alt="Python" />
+  <img src="https://img.shields.io/badge/C%23-F7D6E0?style=for-the-badge&logo=csharp&logoColor=6E4A5A" alt="C#" />
+  <img src="https://img.shields.io/badge/TypeScript-DCE6F7?style=for-the-badge&logo=typescript&logoColor=3B5998" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Unity-EAD7F1?style=for-the-badge&logo=unity&logoColor=4A4A4A" alt="Unity" />
+  <img src="https://img.shields.io/badge/QGIS-D8EED8?style=for-the-badge&logo=qgis&logoColor=3A5E3A" alt="QGIS" />
+  <img src="https://img.shields.io/badge/HTML5-FCE2D6?style=for-the-badge&logo=html5&logoColor=7E4633" alt="HTML5" />
+  <img src="https://img.shields.io/badge/Node.js-E2EED8?style=for-the-badge&logo=nodedotjs&logoColor=436B36" alt="Node.js" />
+</p>
+
+
 <p align="center">✧ ˚ · .　　　⋆　　　. · ˚ ✧</p>
 
 ### 🪻 関心のある分野
