@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="52" viewBox="0 0 760 52" role="img" aria-label="Space, Satellite imagery, Unity, VRChat, AI tools">
+  <g font-family="'Segoe UI',sans-serif" font-size="14" text-anchor="middle" fill="#725980">
+    <rect x="1" y="8" width="117" height="36" rx="18" fill="#efe7fa"/><text x="59" y="31">✧ Space</text>
+    <rect x="130" y="8" width="191" height="36" rx="18" fill="#fae8f0"/><text x="225" y="31">Satellite imagery</text>
+    <rect x="333" y="8" width="115" height="36" rx="18" fill="#efe7fa"/><text x="390" y="31">Unity</text>
+    <rect x="460" y="8" width="132" height="36" rx="18" fill="#fae8f0"/><text x="526" y="31">VRChat</text>
+    <rect x="604" y="8" width="155" height="36" rx="18" fill="#efe7fa"/><text x="681" y="31">✧ AI tools</text>
+  </g>
+</svg>
+
