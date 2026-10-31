@@ -54,6 +54,14 @@
 
 <br />
 
+### 📊 開発アクティビティ
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=r-fallingstar&disable_animations=true&background=FBF8FD&border=EADCF0&stroke=EADCF0&ring=DDA9D5&fire=ECA1C4&currStreakNum=5C4266&sideNums=755780&currStreakLabel=8A6894&sideLabels=8A6894&dates=9C7EA6&border_radius=12" alt="GitHub Streak Stats" />
+</p>
+
+<br />
+
 <p align="center">
   <a href="https://github.com/r-fallingstar?tab=repositories">すべてのリポジトリを見る ↗</a>
 </p>
