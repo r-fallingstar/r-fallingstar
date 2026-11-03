@@ -1,4 +1,8 @@
 <p align="center">
+  <strong>日本語</strong> · <a href="https://github.com/r-fallingstar/r-fallingstar/blob/main/README.en.md">English</a>
+</p>
+
+<p align="center">
   <img src="./assets/star-banner.png" width="100%" alt="ラベンダーとピンクの星空に流れ星。r-fallingstar" />
 </p>
 

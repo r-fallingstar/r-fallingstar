@@ -118,7 +118,7 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="760" height="260" viewB
     </g>
     <g transform="translate(0, 24)">
       <circle cx="6" cy="6" r="4" fill="#DDA9D5" />
-      <text x="18" y="10">公開リポジトリ：1 件</text>
+      <text x="18" y="10">公開ツール・Forkを制作</text>
     </g>
     <g transform="translate(0, 48)">
       <circle cx="6" cy="6" r="4" fill="#B3CDE0" />
@@ -126,7 +126,7 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="760" height="260" viewB
     </g>
     <g transform="translate(0, 72)">
       <circle cx="6" cy="6" r="4" fill="#C1E1C1" />
-      <text x="18" y="10">GitHub歴：3年目</text>
+      <text x="18" y="10">個人開発・ツール試作</text>
     </g>
   </g>
 
@@ -148,8 +148,34 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="760" height="260" viewB
   </g>
 </svg>'''
 
-out_path = Path("assets/activity-card-ja.svg")
-out_path.parent.mkdir(parents=True, exist_ok=True)
-out_path.write_text(svg, encoding="utf-8")
-print(f"Generated {out_path}")
+english_labels = {
+    "開発アクティビティ統計": "GitHub activity statistics",
+    "年間コントリビューション": "Contributions this year",
+    "過去1年間の活動合計": "Total over the past year",
+    "現在の継続日数": "Current streak (days)",
+    "最長継続日数": "Longest streak (days)",
+    "自己ベスト記録": "Personal best",
+    "開発活動：アクティブ": "Development: active",
+    "公開ツール・Forkを制作": "Public tools &amp; forks",
+    "拠点：福井県, 日本 🇯🇵": "Based in Fukui, Japan",
+    "個人開発・ツール試作": "Personal projects",
+    "過去1年間のアクティビティ推移": "Activity over the past year",
+    "11月": "Nov",
+    "1月": "Jan",
+    "3月": "Mar",
+    "5月": "May",
+    "7月": "Jul",
+    "9月": "Sep",
+    "現在": "Now",
+}
+english_svg = svg
+for japanese, english in english_labels.items():
+    english_svg = english_svg.replace(japanese, english)
+english_svg = re.sub(r">(\d+)日<", r">\1<", english_svg)
+
+for language, content in (("ja", svg), ("en", english_svg)):
+    out_path = Path(f"assets/activity-card-{language}.svg")
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(content, encoding="utf-8")
+    print(f"Generated {out_path}")
 

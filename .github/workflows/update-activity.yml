@@ -21,14 +21,14 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Generate Japanese Activity Card
+      - name: Generate Japanese and English Activity Cards
         run: python scripts/generate_activity_card.py
 
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/activity-card-ja.svg
+          git add assets/activity-card-ja.svg assets/activity-card-en.svg
           if git diff --staged --quiet; then
             echo "No changes in activity card."
           else
