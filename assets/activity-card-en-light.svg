@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="276" viewBox="0 0 820 276" role="img" aria-label="GitHub activity statistics">
+  <defs>
+    <linearGradient id="card-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FEFCFF" />
+      <stop offset="100%" stop-color="#FAF4FC" />
+    </linearGradient>
+    <linearGradient id="wave-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D8A8DC" stop-opacity="0.42" />
+      <stop offset="100%" stop-color="#D8A8DC" stop-opacity="0.02" />
+    </linearGradient>
+    <linearGradient id="ring-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#B79AD6" />
+      <stop offset="100%" stop-color="#E49EC2" />
+    </linearGradient>
+    <linearGradient id="line-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#B79AD6" />
+      <stop offset="100%" stop-color="#B37BB3" />
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="818" height="274" rx="18" fill="url(#card-bg)" stroke="#E6D7EE" stroke-width="1.25" />
+
+  <!-- Subtle corner starlight sparkles -->
+  <path d="M 789 17 L 790.5 21.5 L 795 23 L 790.5 24.5 L 789 29 L 787.5 24.5 L 783 23 L 787.5 21.5 Z" fill="#C9A8DF" opacity="0.38" />
+  <circle cx="775" cy="28" r="1.4" fill="#E49EC2" opacity="0.35" />
+
+  <!-- Top KPI 1: Total Contributions -->
+  <g text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', 'Yu Gothic UI', 'Meiryo', 'Noto Sans JP', sans-serif">
+    <text x="145" y="56" font-size="30" font-weight="700" fill="#4B3759">242</text>
+    <text x="145" y="82" font-size="12" font-weight="600" fill="#6B547A">Yearly Contributions</text>
+    <text x="145" y="100" font-size="10.5" fill="#8B719C">Total over the past year</text>
+  </g>
+
+  <line x1="282" y1="26" x2="282" y2="108" stroke="#EFE3F5" stroke-width="1" />
+
+  <!-- Top KPI 2: Streak Ring -->
+  <g text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', 'Yu Gothic UI', 'Meiryo', 'Noto Sans JP', sans-serif">
+    <circle cx="410" cy="48" r="26" fill="#FAF2FC" stroke="url(#ring-grad)" stroke-width="3.2" />
+    <circle cx="410" cy="22" r="5.8" fill="#FCF7FE" />
+    <path d="M 410 16.8 L 411.4 20.6 L 415.2 22 L 411.4 23.4 L 410 27.2 L 408.6 23.4 L 404.8 22 L 408.6 20.6 Z" fill="#E49EC2" />
+    <text x="410" y="56" font-size="21" font-weight="700" fill="#4B3759">4<tspan font-size="11.5" font-weight="600" fill="#6B547A">d</tspan></text>
+    <text x="410" y="92" font-size="12" font-weight="600" fill="#6B547A">Recent Streak</text>
+    <text x="410" y="108" font-size="10.5" fill="#8B719C">Most recent run</text>
+  </g>
+
+  <line x1="538" y1="26" x2="538" y2="108" stroke="#EFE3F5" stroke-width="1" />
+
+  <!-- Top KPI 3: Longest Streak -->
+  <g text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', 'Yu Gothic UI', 'Meiryo', 'Noto Sans JP', sans-serif">
+    <text x="675" y="56" font-size="30" font-weight="700" fill="#4B3759">10<tspan font-size="14" font-weight="600" fill="#6B547A">d</tspan></text>
+    <text x="675" y="82" font-size="12" font-weight="600" fill="#6B547A">Longest Streak</text>
+    <text x="675" y="100" font-size="10.5" fill="#8B719C">Personal best</text>
+  </g>
+
+  <line x1="32" y1="124" x2="788" y2="124" stroke="#EFE3F5" stroke-width="1" />
+
+  <!-- Bottom Left: Snapshot Summary -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', 'Yu Gothic UI', 'Meiryo', 'Noto Sans JP', sans-serif" font-size="12" fill="#6B547A">
+    <circle cx="42" cy="152" r="3.5" fill="#E49EC2" />
+    <text x="54" y="156" font-weight="600">Last 30 days: 211</text>
+    <circle cx="42" cy="178" r="3.5" fill="#B79AD6" />
+    <text x="54" y="182">Active days: 28 / yr</text>
+    <circle cx="42" cy="204" r="3.5" fill="#9CB8E2" />
+    <text x="54" y="208">Based in Fukui, Japan</text>
+    <circle cx="42" cy="230" r="3.5" fill="#9CC9B0" />
+    <text x="54" y="234">Updated: 2026-11-19</text>
+  </g>
+
+  <!-- Bottom Right: Weekly Activity Area Chart -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', 'Yu Gothic UI', 'Meiryo', 'Noto Sans JP', sans-serif">
+    <text x="264" y="146" font-size="11" font-weight="600" fill="#6B547A">Weekly Activity (Past 12 Months)</text>
+    <text x="784" y="146" text-anchor="end" font-size="10.5" fill="#8B719C">Peak 75 / wk</text>
+  </g>
+
+  <line x1="264" y1="158" x2="784" y2="158" stroke="#F2E9F6" stroke-width="1" stroke-dasharray="3 4" />
+  <line x1="264" y1="195" x2="784" y2="195" stroke="#F2E9F6" stroke-width="1" stroke-dasharray="3 4" />
+
+  <path d="M 264.00 232.00 C 267.33 232.00, 270.67 232.00, 274.00 232.00 C 277.33 232.00, 280.67 232.00, 284.00 232.00 C 287.33 232.00, 290.67 232.00, 294.00 232.00 C 297.33 232.00, 300.67 232.00, 304.00 232.00 C 307.33 232.00, 310.67 232.00, 314.00 232.00 C 317.33 232.00, 320.67 232.00, 324.00 232.00 C 327.33 232.00, 330.67 232.00, 334.00 232.00 C 337.33 232.00, 340.67 232.00, 344.00 232.00 C 347.33 232.00, 350.67 232.00, 354.00 232.00 C 357.33 232.00, 360.67 232.00, 364.00 232.00 C 367.33 232.00, 370.67 232.00, 374.00 232.00 C 377.33 232.00, 380.67 232.00, 384.00 232.00 C 387.33 232.00, 390.67 232.00, 394.00 232.00 C 397.33 232.00, 400.67 232.00, 404.00 232.00 C 407.33 232.00, 410.67 232.00, 414.00 232.00 C 417.33 232.00, 420.67 232.00, 424.00 232.00 C 427.33 232.00, 430.67 232.00, 434.00 232.00 C 437.33 232.00, 440.67 232.00, 444.00 232.00 C 447.33 232.00, 450.67 232.00, 454.00 232.00 C 457.33 232.00, 460.67 232.00, 464.00 232.00 C 467.33 232.00, 470.67 232.00, 474.00 232.00 C 477.33 232.00, 480.67 232.00, 484.00 232.00 C 487.33 232.00, 490.67 228.37, 494.00 228.37 C 497.33 228.37, 500.67 232.00, 504.00 232.00 C 507.33 232.00, 510.67 232.00, 514.00 232.00 C 517.33 232.00, 520.67 232.00, 524.00 232.00 C 527.33 232.00, 530.67 221.12, 534.00 221.12 C 537.33 221.12, 540.67 224.90, 544.00 226.56 C 547.33 228.22, 550.67 230.19, 554.00 231.09 C 557.33 232.00, 560.67 232.00, 564.00 232.00 C 567.33 232.00, 570.67 232.00, 574.00 232.00 C 577.33 232.00, 580.67 232.00, 584.00 232.00 C 587.33 232.00, 590.67 232.00, 594.00 232.00 C 597.33 232.00, 600.67 232.00, 604.00 232.00 C 607.33 232.00, 610.67 232.00, 614.00 232.00 C 617.33 232.00, 620.67 232.00, 624.00 232.00 C 627.33 232.00, 630.67 232.00, 634.00 232.00 C 637.33 232.00, 640.67 232.00, 644.00 232.00 C 647.33 232.00, 650.67 230.19, 654.00 230.19 C 657.33 230.19, 660.67 232.00, 664.00 232.00 C 667.33 232.00, 670.67 229.28, 674.00 229.28 C 677.33 229.28, 680.67 232.00, 684.00 232.00 C 687.33 232.00, 690.67 231.40, 694.00 231.09 C 697.33 230.79, 700.67 230.19, 704.00 230.19 C 707.33 230.19, 710.67 232.00, 714.00 232.00 C 717.33 232.00, 720.67 232.00, 724.00 232.00 C 727.33 232.00, 730.67 232.00, 734.00 232.00 C 737.33 232.00, 740.67 232.00, 744.00 232.00 C 747.33 232.00, 750.67 190.29, 754.00 190.29 C 757.33 190.29, 760.67 215.68, 764.00 215.68 C 767.33 215.68, 770.67 164.00, 774.00 164.00 C 777.33 164.00, 780.67 165.81, 784.00 166.72 L 784.00 232.00 L 264.00 232.00 Z" fill="url(#wave-grad)" />
+  <path d="M 264.00 232.00 C 267.33 232.00, 270.67 232.00, 274.00 232.00 C 277.33 232.00, 280.67 232.00, 284.00 232.00 C 287.33 232.00, 290.67 232.00, 294.00 232.00 C 297.33 232.00, 300.67 232.00, 304.00 232.00 C 307.33 232.00, 310.67 232.00, 314.00 232.00 C 317.33 232.00, 320.67 232.00, 324.00 232.00 C 327.33 232.00, 330.67 232.00, 334.00 232.00 C 337.33 232.00, 340.67 232.00, 344.00 232.00 C 347.33 232.00, 350.67 232.00, 354.00 232.00 C 357.33 232.00, 360.67 232.00, 364.00 232.00 C 367.33 232.00, 370.67 232.00, 374.00 232.00 C 377.33 232.00, 380.67 232.00, 384.00 232.00 C 387.33 232.00, 390.67 232.00, 394.00 232.00 C 397.33 232.00, 400.67 232.00, 404.00 232.00 C 407.33 232.00, 410.67 232.00, 414.00 232.00 C 417.33 232.00, 420.67 232.00, 424.00 232.00 C 427.33 232.00, 430.67 232.00, 434.00 232.00 C 437.33 232.00, 440.67 232.00, 444.00 232.00 C 447.33 232.00, 450.67 232.00, 454.00 232.00 C 457.33 232.00, 460.67 232.00, 464.00 232.00 C 467.33 232.00, 470.67 232.00, 474.00 232.00 C 477.33 232.00, 480.67 232.00, 484.00 232.00 C 487.33 232.00, 490.67 228.37, 494.00 228.37 C 497.33 228.37, 500.67 232.00, 504.00 232.00 C 507.33 232.00, 510.67 232.00, 514.00 232.00 C 517.33 232.00, 520.67 232.00, 524.00 232.00 C 527.33 232.00, 530.67 221.12, 534.00 221.12 C 537.33 221.12, 540.67 224.90, 544.00 226.56 C 547.33 228.22, 550.67 230.19, 554.00 231.09 C 557.33 232.00, 560.67 232.00, 564.00 232.00 C 567.33 232.00, 570.67 232.00, 574.00 232.00 C 577.33 232.00, 580.67 232.00, 584.00 232.00 C 587.33 232.00, 590.67 232.00, 594.00 232.00 C 597.33 232.00, 600.67 232.00, 604.00 232.00 C 607.33 232.00, 610.67 232.00, 614.00 232.00 C 617.33 232.00, 620.67 232.00, 624.00 232.00 C 627.33 232.00, 630.67 232.00, 634.00 232.00 C 637.33 232.00, 640.67 232.00, 644.00 232.00 C 647.33 232.00, 650.67 230.19, 654.00 230.19 C 657.33 230.19, 660.67 232.00, 664.00 232.00 C 667.33 232.00, 670.67 229.28, 674.00 229.28 C 677.33 229.28, 680.67 232.00, 684.00 232.00 C 687.33 232.00, 690.67 231.40, 694.00 231.09 C 697.33 230.79, 700.67 230.19, 704.00 230.19 C 707.33 230.19, 710.67 232.00, 714.00 232.00 C 717.33 232.00, 720.67 232.00, 724.00 232.00 C 727.33 232.00, 730.67 232.00, 734.00 232.00 C 737.33 232.00, 740.67 232.00, 744.00 232.00 C 747.33 232.00, 750.67 190.29, 754.00 190.29 C 757.33 190.29, 760.67 215.68, 764.00 215.68 C 767.33 215.68, 770.67 164.00, 774.00 164.00 C 777.33 164.00, 780.67 165.81, 784.00 166.72" fill="none" stroke="url(#line-grad)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="774.00" cy="164.00" r="5.5" fill="#E49EC2" opacity="0.28" />
+  <circle cx="774.00" cy="164.00" r="3" fill="#E49EC2" stroke="#FFFFFF" stroke-width="1.2" />
+
+  <line x1="264" y1="232" x2="784" y2="232" stroke="#EFE3F5" stroke-width="1.2" />
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', 'Yu Gothic UI', 'Meiryo', 'Noto Sans JP', sans-serif" font-size="10" fill="#8B719C">
+    <text x="264.0" y="250" text-anchor="start">Nov</text>
+    <text x="354.0" y="250" text-anchor="middle">Jan</text>
+    <text x="434.0" y="250" text-anchor="middle">Mar</text>
+    <text x="524.0" y="250" text-anchor="middle">May</text>
+    <text x="614.0" y="250" text-anchor="middle">Jul</text>
+    <text x="694.0" y="250" text-anchor="middle">Sep</text>
+    <text x="784.0" y="250" text-anchor="end">Now</text>
+  </g>
+</svg>

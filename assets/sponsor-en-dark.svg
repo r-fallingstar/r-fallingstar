@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="272" height="42" viewBox="0 0 272 42" role="img" aria-label="Support my work through GitHub Sponsors">
+  <defs>
+    <linearGradient id="sponsor-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#241C34" />
+      <stop offset="100%" stop-color="#2D1D2E" />
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="270" height="40" rx="20" fill="url(#sponsor-bg)" stroke="#4D385C" stroke-width="1.25" />
+  <path d="M 28.5 27.2 C 28.5 27.2 22 22.8 22 18.2 C 22 16.1 23.6 14.5 25.6 14.5 C 26.8 14.5 27.9 15.1 28.5 16.1 C 29.1 15.1 30.2 14.5 31.4 14.5 C 33.4 14.5 35 16.1 35 18.2 C 35 22.8 28.5 27.2 28.5 27.2 Z" fill="none" stroke="#F2ADCE" stroke-width="1.6" stroke-linejoin="round" />
+  <text x="141" y="25.2" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', 'Yu Gothic UI', 'Meiryo', 'Noto Sans JP', sans-serif" font-size="12.5" font-weight="600" fill="#F4ECF8">Support via GitHub Sponsors</text>
+  <path d="M 244 24 L 250 18 M 245.5 18 L 250 18 L 250 22.5" fill="none" stroke="#CFC0DB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

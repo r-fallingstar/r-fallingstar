@@ -1,86 +1,129 @@
 <p align="center">
-  <strong>日本語</strong> · <a href="https://github.com/r-fallingstar/r-fallingstar/blob/main/README.en.md">English</a>
+  <strong>日本語</strong> &nbsp;·&nbsp; <a href="https://github.com/r-fallingstar/r-fallingstar/blob/main/README.en.md">English</a> &nbsp;·&nbsp; <a href="https://r-fallingstar.github.io/">Portfolio ↗</a> &nbsp;·&nbsp; <a href="https://snow-moon-works.booth.pm/">BOOTH ↗</a>
 </p>
 
 <p align="center">
   <img src="./assets/star-banner.png" width="100%" alt="ラベンダーとピンクの星空に流れ星。r-fallingstar" />
 </p>
 
-<h2 align="center">こんにちは、Rです 🌠</h2>
+<h2 align="center">こんにちは、R です 🌠</h2>
 
 <p align="center">
-  宇宙や衛星画像、Unity、VRChat、AIツールに興味があります。<br />
-  気になった技術を調べたり、個人開発やツール試作を楽しんでいます。
+  宇宙・衛星画像、Unity / VRChat、AI ツールに関心があります。<br />
+  気になった技術を調べながら、個人開発や実用ツールの試作・配布を行っています。
 </p>
 
 <p align="center">
-  <img src="./assets/interests.svg" width="760" alt="関心のある分野：宇宙、衛星画像、Unity、VRChat、AIツール" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/focus-ja-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/focus-ja-light.svg" />
+    <img src="./assets/focus-ja-light.svg" width="100%" alt="関心のある分野：宇宙・衛星画像、Unity・VRChat、AI ツール" />
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-E9D8F2?style=for-the-badge&logo=python&logoColor=5A4A6E" alt="Python" />
-  <img src="https://img.shields.io/badge/C%23-F7D6E0?style=for-the-badge&logo=csharp&logoColor=6E4A5A" alt="C#" />
-  <img src="https://img.shields.io/badge/TypeScript-DCE6F7?style=for-the-badge&logo=typescript&logoColor=3B5998" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Unity-EAD7F1?style=for-the-badge&logo=unity&logoColor=4A4A4A" alt="Unity" />
-  <img src="https://img.shields.io/badge/QGIS-D8EED8?style=for-the-badge&logo=qgis&logoColor=3A5E3A" alt="QGIS" />
-  <img src="https://img.shields.io/badge/HTML5-FCE2D6?style=for-the-badge&logo=html5&logoColor=7E4633" alt="HTML5" />
-  <img src="https://img.shields.io/badge/Node.js-E2EED8?style=for-the-badge&logo=nodedotjs&logoColor=436B36" alt="Node.js" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/tech-stack-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/tech-stack-light.svg" />
+    <img src="./assets/tech-stack-light.svg" width="100%" alt="Python, C#, TypeScript, Swift, Unity, QGIS, HTML / CSS, Node.js" />
+  </picture>
 </p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg" />
+    <img src="./assets/divider-light.svg" width="100%" alt="" />
+  </picture>
+</p>
 
-<p align="center">✧ ˚ · .　　　⋆　　　. · ˚ ✧</p>
+### ✦ 主な制作物
 
-### 🪻 関心のある分野
+#### [Satellite_Image_Downloader](https://github.com/r-fallingstar/Satellite_Image_Downloader) — *Earth Imagery Studio*
 
-- 🛰️ **宇宙・衛星画像**：宇宙技術や、衛星データから見える地球の姿に関心を持っています。
-- 🎮 **Unity・VRChat**：バーチャル空間でのものづくりや、関連ツールの制作に取り組んでいます。
-- 🪄 **AIツール**：開発や日常の作業をサポートするAIツールを活用し、便利な使い方を模索しています。
+地図上で範囲を指定し、Google Earth Engine 経由で Sentinel-2 や Landsat の光学衛星画像を PC へ取得・保存できる日本語デスクトップアプリです。
 
-### 🛰️ 主な制作物
-
-#### [Satellite_Image_Downloader](https://github.com/r-fallingstar/Satellite_Image_Downloader)
-**Earth Imagery Studio**
-
-地図上で範囲を指定し、Google Earth Engine経由でSentinel-2やLandsatの光学衛星画像をPCへ取得・保存できる日本語デスクトップアプリです。
-
-- 撮影期間や雲量の上限を設定し、必要な領域の画像を切り出してダウンロードできます。
-- 指定期間内の複数シーンを合成（モザイク処理や中央値）して取得できます。
-- 解析用のGeoTIFFに加え、QGIS向けの表示スタイル設定（.qml）も出力可能です。
+- 撮影期間や雲量の上限を設定し、必要な領域を切り出してダウンロードできます。
+- 指定期間内の複数シーンを合成（モザイク処理や中央値コンポジット）して取得できます。
+- 解析用の GeoTIFF に加え、QGIS 向けの表示スタイル設定（`.qml`）も出力可能です。
 
 <sub>※ 現在はプライベートリポジトリのため、閲覧にはアクセス権が必要です。</sub>
 
-### 🌷 主なフォーク・公開ツール
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <strong><a href="https://github.com/r-fallingstar/nocturne-planet-poster-atlas">nocturne-planet-poster-atlas</a></strong><br />
+      <sub>Web ツール · HTML / JavaScript</sub><br /><br />
+      VRChat ワールド「Nocturne Planet」の入口掲示用ポスターを、ブラウザ内だけで 9 枚ずつアトラス化し、PNG・JPG・ZIP で書き出せる作成ツール。<br /><br />
+      <a href="https://r-fallingstar.github.io/nocturne-planet-poster-atlas/">Web ツールを開く ↗</a>
+    </td>
+    <td width="50%" valign="top">
+      <strong><a href="https://github.com/r-fallingstar/singularity-setup-wizard">singularity-setup-wizard</a></strong><br />
+      <sub>Windows + Quest Pro · Python</sub><br /><br />
+      Windows と Quest Pro 向けの非公式・日英バイリンガルセットアップウィザード。選択的なファームウェア保護や、ワイヤレス ADB・スリープ・6GHz 補助を案内します。<br /><br />
+      <a href="https://github.com/r-fallingstar/singularity-setup-wizard/releases">リリースを見る ↗</a>
+    </td>
+  </tr>
+</table>
+
+### ✦ 公開ツール・フォーク
 
 | 分野 | リポジトリ | 概要 |
-| :---: | :--- | :--- |
-| 🎮 | [unity-mcp-alcom](https://github.com/r-fallingstar/unity-mcp-alcom) | Unity MCPをALCOM / VPM経由で導入・更新できるようにした配布用フォーク |
-| 📝 | [mcp-youtube-transcript](https://github.com/r-fallingstar/mcp-youtube-transcript) | YouTube動画の字幕テキストを取得するMCPサーバーのフォーク |
+| :--- | :--- | :--- |
+| macOS | [**steamac-lite**](https://github.com/r-fallingstar/steamac-lite) | Apple Silicon Mac 上の軽量 VM で ARM64 SteamOS を動かす `steamac` の適応プロファイル版フォーク（[図解ガイド ↗](https://r-fallingstar.github.io/steamac-lite/?lang=ja)） |
+| Unity / VRChat | [**unity-mcp-alcom**](https://github.com/r-fallingstar/unity-mcp-alcom) | CoplayDev Unity MCP を ALCOM / VPM 経由で導入・自動更新できるようにした配布用フォーク（[ALCOM 追加ページ ↗](https://r-fallingstar.github.io/unity-mcp-alcom/)） |
+| Windows | [**now-playing-taskbar-widget-forAmazonMusic**](https://github.com/r-fallingstar/now-playing-taskbar-widget-forAmazonMusic) | Windows タスクバーの再生情報ウィジェットを Amazon Music（SMTC Bridge 連携）に対応させた非公式フォーク |
+| AI / MCP | [**mcp-youtube-transcript**](https://github.com/r-fallingstar/mcp-youtube-transcript) | YouTube 動画の字幕テキストを取得する MCP サーバーのフォーク |
 
-<br />
+### ✦ BOOTH ショップ
 
-### 開発への支援
+**[Snow Moon Works](https://snow-moon-works.booth.pm/)**
 
-公開しているツールは、これからも無料で提供していく予定です。開発・検証にかかる費用を支えていただけると、継続の助けになります。
+VRChat 向けの 3D アクセサリー（星空や花をモチーフにした装飾品、無機質系イヤリングなど Modular Avatar / PhysBone 対応アイテム）や実用ツールを頒布しています。
 
-[GitHub Sponsorsで開発を支援する](https://github.com/sponsors/r-fallingstar)
+[BOOTH ショップを見る ↗](https://snow-moon-works.booth.pm/)
 
-支援は任意です。個別サポートや機能追加をお約束するものではありません。
-
-### 📊 開発アクティビティ
-
-<p align="center">
-  <img src="./assets/activity-card-ja.svg" width="760" alt="開発アクティビティ統計" />
-</p>
-
-<br />
+### ✦ 開発アクティビティ
 
 <p align="center">
-  <a href="https://github.com/r-fallingstar?tab=repositories">すべてのリポジトリを見る ↗</a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-card-ja-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/activity-card-ja-light.svg" />
+    <img src="./assets/activity-card-ja-light.svg" width="100%" alt="GitHub 開発アクティビティ統計" />
+  </picture>
 </p>
 
-<br />
+### ✦ 開発への支援
+
+公開しているツールは、これからも無料で提供していく予定です。<br />
+開発・検証にかかる費用を支えていただけると、継続の大きな助けになります。
 
 <p align="center">
-  ✧ ˚ · .　ご覧いただきありがとうございます　. · ˚ ✧
+  <a href="https://github.com/sponsors/r-fallingstar">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/sponsor-ja-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/sponsor-ja-light.svg" />
+      <img src="./assets/sponsor-ja-light.svg" width="272" alt="GitHub Sponsors で開発を支援する" />
+    </picture>
+  </a>
 </p>
 
+<p align="center">
+  <sub>支援は任意です。個別サポートや機能追加をお約束するものではありません。</sub>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg" />
+    <img src="./assets/divider-light.svg" width="100%" alt="" />
+  </picture>
+</p>
+
+<p align="center">
+  <a href="https://r-fallingstar.github.io/">ポートフォリオサイト ↗</a> &nbsp;·&nbsp; <a href="https://snow-moon-works.booth.pm/">BOOTH（Snow Moon Works）↗</a> &nbsp;·&nbsp; <a href="https://github.com/r-fallingstar?tab=repositories">すべてのリポジトリを見る ↗</a>
+</p>
+
+<p align="center">
+  <sub>✧ ˚ · .　ご覧いただきありがとうございます　. · ˚ ✧</sub>
+</p>

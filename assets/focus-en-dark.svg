@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="148" viewBox="0 0 820 148" role="img" aria-label="Focus areas: Space and Satellite, Unity and VRChat, AI and MCP Tools">
+  <defs>
+    <linearGradient id="focus-bg-0" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1D182B" />
+      <stop offset="100%" stop-color="#211B31" />
+    </linearGradient>
+    <linearGradient id="focus-bg-1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#221828" />
+      <stop offset="100%" stop-color="#271B2E" />
+    </linearGradient>
+    <linearGradient id="focus-bg-2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1B192B" />
+      <stop offset="100%" stop-color="#211C32" />
+    </linearGradient>
+  </defs>
+  <g transform="translate(1, 1)">
+    <rect width="262" height="146" rx="16" fill="url(#focus-bg-0)" stroke="#3C3157" stroke-width="1.25" />
+    <rect x="18" y="18" width="34" height="34" rx="10" fill="#2B2241" />
+      <circle cx="35" cy="35" r="7.5" fill="none" stroke="#CBB2EE" stroke-width="1.6" />
+      <ellipse cx="35" cy="35" rx="13.5" ry="4.6" transform="rotate(-22 35 35)" fill="none" stroke="#CBB2EE" stroke-width="1.5" stroke-linecap="round" />
+      <circle cx="44.5" cy="27.5" r="1.5" fill="#CBB2EE" />
+    <rect x="148" y="24" width="96" height="20" rx="10" fill="#28203D" />
+    <text x="196.0" y="37.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', 'Yu Gothic UI', 'Meiryo', 'Noto Sans JP', sans-serif" font-size="9.5" font-weight="600" letter-spacing="0.8" fill="#CBB2EE">EARTH &amp; SPACE</text>
+    <text x="18" y="76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', 'Yu Gothic UI', 'Meiryo', 'Noto Sans JP', sans-serif" font-size="14.5" font-weight="700" fill="#F4ECF8">Space &amp; Satellite</text>
+    <text x="18" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', 'Yu Gothic UI', 'Meiryo', 'Noto Sans JP', sans-serif" font-size="11.5" fill="#CFC0DB">Exploring Earth observation and</text>
+    <text x="18" y="119" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', 'Yu Gothic UI', 'Meiryo', 'Noto Sans JP', sans-serif" font-size="11.5" fill="#CFC0DB">building satellite imagery tools.</text>
+  </g>
+  <g transform="translate(279, 1)">
+    <rect width="262" height="146" rx="16" fill="url(#focus-bg-1)" stroke="#4B324D" stroke-width="1.25" />
+    <rect x="18" y="18" width="34" height="34" rx="10" fill="#362238" />
+      <path d="M 35 24.5 L 44.5 29.8 L 44.5 40.2 L 35 45.5 L 25.5 40.2 L 25.5 29.8 Z" fill="none" stroke="#F2B3D1" stroke-width="1.6" stroke-linejoin="round" />
+      <path d="M 25.5 29.8 L 35 35 L 44.5 29.8 M 35 35 L 35 45.5" fill="none" stroke="#F2B3D1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      <circle cx="44.5" cy="25.5" r="1.3" fill="#F2B3D1" />
+    <rect x="156" y="24" width="88" height="20" rx="10" fill="#332035" />
+    <text x="200.0" y="37.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', 'Yu Gothic UI', 'Meiryo', 'Noto Sans JP', sans-serif" font-size="9.5" font-weight="600" letter-spacing="0.8" fill="#F2B3D1">XR &amp; WORLDS</text>
+    <text x="18" y="76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', 'Yu Gothic UI', 'Meiryo', 'Noto Sans JP', sans-serif" font-size="14.5" font-weight="700" fill="#F4ECF8">Unity &amp; VRChat</text>
+    <text x="18" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', 'Yu Gothic UI', 'Meiryo', 'Noto Sans JP', sans-serif" font-size="11.5" fill="#CFC0DB">Creating virtual spaces, worlds,</text>
+    <text x="18" y="119" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', 'Yu Gothic UI', 'Meiryo', 'Noto Sans JP', sans-serif" font-size="11.5" fill="#CFC0DB">and practical XR &amp; Unity helpers.</text>
+  </g>
+  <g transform="translate(557, 1)">
+    <rect width="262" height="146" rx="16" fill="url(#focus-bg-2)" stroke="#3A3359" stroke-width="1.25" />
+    <rect x="18" y="18" width="34" height="34" rx="10" fill="#282442" />
+      <path d="M 34 25 L 36.2 31.8 L 43 34 L 36.2 36.2 L 34 43 L 31.8 36.2 L 25 34 L 31.8 31.8 Z" fill="none" stroke="#C5BDF2" stroke-width="1.6" stroke-linejoin="round" />
+      <path d="M 43 24.5 L 43.8 26.7 L 46 27.5 L 43.8 28.3 L 43 30.5 L 42.2 28.3 L 40 27.5 L 42.2 26.7 Z" fill="#C5BDF2" />
+      <circle cx="26.5" cy="42.5" r="1.3" fill="#C5BDF2" />
+    <rect x="176" y="24" width="68" height="20" rx="10" fill="#26223E" />
+    <text x="210.0" y="37.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', 'Yu Gothic UI', 'Meiryo', 'Noto Sans JP', sans-serif" font-size="9.5" font-weight="600" letter-spacing="0.8" fill="#C5BDF2">AI &amp; MCP</text>
+    <text x="18" y="76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', 'Yu Gothic UI', 'Meiryo', 'Noto Sans JP', sans-serif" font-size="14.5" font-weight="700" fill="#F4ECF8">AI &amp; MCP Tools</text>
+    <text x="18" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', 'Yu Gothic UI', 'Meiryo', 'Noto Sans JP', sans-serif" font-size="11.5" fill="#CFC0DB">Integrating AI and MCP tools into</text>
+    <text x="18" y="119" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', 'Yu Gothic UI', 'Meiryo', 'Noto Sans JP', sans-serif" font-size="11.5" fill="#CFC0DB">practical everyday workflows.</text>
+  </g>
+</svg>
