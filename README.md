@@ -39,6 +39,16 @@
 
 ### ✦ 主な制作物
 
+#### [VRC Asset Manager](https://booth.pm/ja/items/9201818) — *Windows App & Unity VPM Bridge*
+
+VRChat 改変用にダウンロードしたアバター・衣装・髪型・ツール・テクスチャなどを、Windows 上で一括整理・管理できるデスクトップアプリです（基本無料・支援者版あり）。
+
+- ZIP・`.unitypackage`・解凍済みフォルダをまとめて管理し、BOOTH 商品ページやサムネイル画像と紐付けて直感的に探せます。
+- ジャンル・ショップ別の整理やタグ・メモ管理に加え、BOOTH 以外の配布物や自作アセットにも対応しています。
+- 公式 VPM パッケージ（`com.fallingstar.vrc-asset-manager-bridge`）により、Unity Editor へのワンクリック導入と「導入済みアセット」タブでのビジュアル管理が可能です。
+
+[BOOTH で見る ↗](https://booth.pm/ja/items/9201818) &nbsp;·&nbsp; [Unity VPM 追加ページ ↗](https://r-fallingstar.github.io/VRC-Asset-Manager-vpm/) &nbsp;·&nbsp; [更新履歴・リリースノート ↗](https://github.com/r-fallingstar/VRC-Asset-Manager-updates/releases)
+
 #### [Satellite_Image_Downloader](https://github.com/r-fallingstar/Satellite_Image_Downloader) — *Earth Imagery Studio*
 
 地図上で範囲を指定し、Google Earth Engine 経由で Sentinel-2 や Landsat の光学衛星画像を PC へ取得・保存できる日本語デスクトップアプリです。
@@ -79,7 +89,7 @@
 
 **[Snow Moon Works](https://snow-moon-works.booth.pm/)**
 
-VRChat 向けの 3D アクセサリー（星空や花をモチーフにした装飾品、無機質系イヤリングなど Modular Avatar / PhysBone 対応アイテム）や実用ツールを頒布しています。
+VRChat 向けの 3D アクセサリー（`月女神＜アルテミス＞の星涙`、`星結び` シリーズ、`NIXIE BONBON` などの Modular Avatar / PhysBone 対応アイテム）や、`VRC Asset Manager`・`ポンモバ` などの実用ツールを頒布しています。
 
 [BOOTH ショップを見る ↗](https://snow-moon-works.booth.pm/)
 

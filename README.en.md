@@ -39,6 +39,16 @@
 
 ### ✦ Projects
 
+#### [VRC Asset Manager](https://booth.pm/ja/items/9201818) — *Windows App & Unity VPM Bridge*
+
+A Windows desktop app for organizing VRChat avatar assets, outfits, hairstyles, tools, and textures in one library (free base edition with optional supporter edition).
+
+- Manage ZIP archives, `.unitypackage` files, and extracted folders while linking them with BOOTH product pages and thumbnails.
+- Organize by category, creator shop, tags, and notes—including custom or non-BOOTH assets.
+- Pairs with the official VPM bridge (`com.fallingstar.vrc-asset-manager-bridge`) for one-click Unity imports and an "Installed Assets" visual tab inside Unity Editor.
+
+[View on BOOTH ↗](https://booth.pm/ja/items/9201818) &nbsp;·&nbsp; [Unity VPM Page ↗](https://r-fallingstar.github.io/VRC-Asset-Manager-vpm/) &nbsp;·&nbsp; [Release Notes ↗](https://github.com/r-fallingstar/VRC-Asset-Manager-updates/releases)
+
 #### [Satellite_Image_Downloader](https://github.com/r-fallingstar/Satellite_Image_Downloader) — *Earth Imagery Studio*
 
 A Japanese-language desktop app for downloading Sentinel-2 and Landsat optical satellite imagery through Google Earth Engine. Select an area on a map and save the imagery to your computer.
@@ -79,7 +89,7 @@ A Japanese-language desktop app for downloading Sentinel-2 and Landsat optical s
 
 **[Snow Moon Works](https://snow-moon-works.booth.pm/)**
 
-VRChat 3D accessories (starry, floral, and inorganic jewelry with Modular Avatar / PhysBone support) and practical tools.
+VRChat 3D accessories (starry, floral, and mechanical jewelry with Modular Avatar / PhysBone support) alongside practical utilities such as *VRC Asset Manager* and *PonMoba*.
 
 [Visit BOOTH Shop ↗](https://snow-moon-works.booth.pm/)
 
